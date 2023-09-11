@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visor de Camaras</title>
+    <style>
+        /* Estilo para el contenedor principal */
+        .container {
+            text-align: center; /* Centrar contenido horizontalmente */
+            padding: 20px; /* Agregar espacio alrededor del contenedor */
+        }
+
+        /* Estilo para el marco azul */
+        .frame {
+            display: inline-block;
+            background-color: blue; /* Color de fondo azul */
+            border-radius: 10px; /* Esquinas redondeadas */
+            padding: 10px; /* Espacio interno del marco */
+        }
+
+        /* Estilo para los iframes */
+        iframe {
+            display: block; /* Para que cada iframe esté en una línea diferente */
+            margin: 10px auto; /* Centrar verticalmente y agregar espacio entre ellos */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Visor de Camaras</h1>
+
+        <!-- Cuadro para la Camara 1 -->
+        <div class="frame">
+            <h2>CAMARA 1</h2>
+            <iframe src="http://192.168.100.135:4747/video" width="640" height="480"></iframe>
+        </div>
+
+        <!-- Cuadro para la Camara 2 -->
+        <div class="frame">
+            <h2>CAMARA 2</h2>
+            <iframe src="http://192.168.100.239:4747/video" width="640" height="480"></iframe>
+        </div>
+    </div>
+</body>
+</html>

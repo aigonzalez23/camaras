@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#3a718f;
+}
+
+
+h2{
+    color: white;
+}
+ 
+ 
+ /* Estilo para el contenedor principal */
+ .container {
+    text-align: center; /* Centrar contenido horizontalmente */
+    padding: 20px; /* Agregar espacio alrededor del contenedor */
+}
+
+/* Estilo para el marco azul */
+.frame {
+    display: inline-block;
+    background-color: black; /* Color de fondo azul */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 10px; /* Espacio interno del marco */
+}
+
+/* Estilo para los iframes */
+iframe {
+    display: block; /* Para que cada iframe esté en una línea diferente */
+    margin: 10px auto; /* Centrar verticalmente y agregar espacio entre ellos */
+}
+
+.espacio{
+	padding: 3em;
+}
+
+.piePagina img{
+	width: 20%;
+    margin-left:5% ;
+}
+
+.piePagina{
+	background-color: #2C2B2B;
+	color: #E2E2E2;
+	display: flex;
+	justify-content: space-evenly;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 177%;
+    letter-spacing: 0.16em;
+}
